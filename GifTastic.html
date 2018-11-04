@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="jumbotron d-flex flex-column flex-wrap p-3 height: 35%">
+     
+      <form class="form-inline d-flex justify-content-end mt-4" id="team-form">
+          <label for="team-input"></label>
+          <input type="text" id="team-input">
+          <br>
+          <!-- Button triggers new team to be added -->
+          <input id="add-team" type="submit" value="Add a Team" role="button" class="btn btn-primary btn-lg">
+      </form>  
+      <hr>
+      <div class="text-warning justify-content-center alert alert-success mt-3 btn-group" id="buttons-view"></div> 
+      
+  </div>
+  
+  <div id="gifs-appear-here" class="d-flex justify-content-left flex-wrap p-4"></div>
+  <!-- Script -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/gif.js"></script>
+  
+   
+</body>
+
+</html>

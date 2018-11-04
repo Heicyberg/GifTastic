@@ -1,0 +1,15 @@
+.jumbotron{
+    background: url("../images/shield.jpg");
+    background-size: 100% 100%;
+}
+
+.buttons-view{
+    position: absolute;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
